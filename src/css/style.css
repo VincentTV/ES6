@@ -1,0 +1,15 @@
+@import 'other.css';
+
+.layout {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout .avatar {
+  width: 200px;
+  height: 200px;
+  background: url(../images/avatar.png);
+  background-size: cover;
+  border-radius: 50%;
+}
